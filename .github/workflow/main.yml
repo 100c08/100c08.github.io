@@ -1,4 +1,4 @@
-name: Automatically Deployment for Gatsby Blog
+name: Deployment for Gatsby Blog
 
 on:
   push:
