@@ -28,6 +28,10 @@ const Menu = styled.div`
   }
 `
 
+const NaverIcon = styled(SiNaver)`
+  transform: scale(0.8);
+`
+
 export default function Header() {
   return (
     <Wrapper>
@@ -48,7 +52,7 @@ export default function Header() {
           target="_blank"
           rel="noreferrer"
         >
-          <SiNaver />
+          <NaverIcon />
         </a>
       </Menu>
     </Wrapper>
