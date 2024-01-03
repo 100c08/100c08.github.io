@@ -7,7 +7,7 @@ on:
     branches: develop
 	repository_dispatch:
     types: [trigger-event]
-    
+
 jobs:
   build:
     runs-on: ubuntu-latest
