@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     title: `Developer 100c08`,
     siteUrl: `https://100c08.github.io`,
     description: 'Welcome to my Gatsby Blog!',
-    image: '/thumbnail.webp',
+    image: '/thumbnail.jpeg',
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin

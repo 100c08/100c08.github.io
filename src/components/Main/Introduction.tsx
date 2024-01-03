@@ -28,8 +28,8 @@ export default function Introduction() {
         css={profileImageStyle}
       />
 
-      <SubText>Hello</SubText>
-      <MainText>I&apos;m Developer 100c08</MainText>
+      <SubText>Nice to meet you!</SubText>
+      <MainText>I&apos;m Aspiring Developer Damien</MainText>
     </div>
   )
 }
