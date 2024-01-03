@@ -1,0 +1,52 @@
+import styled from '@emotion/styled'
+import { Link } from 'gatsby'
+import { AiFillGithub, AiOutlineInstagram } from 'react-icons/ai'
+import { SiNaver } from 'react-icons/si'
+
+const Wrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+`
+
+const Title = styled(Link)`
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+`
+
+const Menu = styled.div`
+  display: flex;
+  gap: 15px;
+  font-size: 25px;
+
+  & > a {
+    display: flex;
+    color: initial;
+  }
+`
+
+export default function Header() {
+  return (
+    <Wrapper>
+      <Title to="/">Developer 100c08</Title>
+      <Menu>
+        <a href="https://github.com/100c08" target="_blank" rel="noreferrer">
+          <AiFillGithub />
+        </a>
+        <a
+          href="https://www.instagram.com/_100c08"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <AiOutlineInstagram />
+        </a>
+        <a href="#" target="_blank">
+          <SiNaver />
+        </a>
+      </Menu>
+    </Wrapper>
+  )
+}
