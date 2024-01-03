@@ -32,7 +32,7 @@ const config: GatsbyConfig = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-emotion',
-    'gatsby-plugin-google-gtag',
+    // 'gatsby-plugin-google-gtag',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-mdx',
     {
