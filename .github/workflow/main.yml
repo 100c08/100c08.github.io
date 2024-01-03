@@ -21,5 +21,5 @@ jobs:
         uses: enriikke/gatsby-gh-pages-action@v2
         with:
           access-token: ${{ secrets.DEPLOY_SECRET }}
-          deploy-branch: master
+          deploy-branch: main
           gatsby-args: --verbose
