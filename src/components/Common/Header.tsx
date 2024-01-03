@@ -43,7 +43,11 @@ export default function Header() {
         >
           <AiOutlineInstagram />
         </a>
-        <a href="#" target="_blank">
+        <a
+          href="https://blog.naver.com/100c08"
+          target="_blank"
+          rel="noreferrer"
+        >
           <SiNaver />
         </a>
       </Menu>
