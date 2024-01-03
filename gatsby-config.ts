@@ -4,7 +4,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `Developer 100c08`,
     siteUrl: `https://100c08.github.io`,
-    description: 'Welcome to my Gatsby Blog!',
+    description: 'Welcome to my Blog!',
     image: '/thumbnail.jpeg',
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
