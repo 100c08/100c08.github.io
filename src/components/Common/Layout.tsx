@@ -35,8 +35,8 @@ const Wrapper = styled.div`
   margin: 0 auto;
 
   @media (max-width: 767px) {
-    width: 100%; // 모바일 화면에서는 폭을 100%로 조정
-    padding: 0 20px; // 필요한 경우 양쪽에 패딩 추가
+    width: 100%;
+    padding: 0 20px;
   }
 `
 

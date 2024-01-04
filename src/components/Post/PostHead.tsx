@@ -15,6 +15,12 @@ const Wrapper = styled.div`
   height: 520px;
   padding: 50px;
   border-radius: 20px;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
 `
 
 const Title = styled.div`
@@ -23,6 +29,10 @@ const Title = styled.div`
   font-size: 30px;
   font-weight: 700;
   color: #ffffff;
+
+  @media (max-width: 767px) {
+    font-size: 24px;
+  }
 `
 
 const Info = styled.div`
@@ -32,6 +42,10 @@ const Info = styled.div`
   font-size: 15px;
   font-weight: 100;
   color: #ffffff;
+
+  @media (max-width: 767px) {
+    font-size: 13px;
+  }
 `
 
 const Line = styled.div`

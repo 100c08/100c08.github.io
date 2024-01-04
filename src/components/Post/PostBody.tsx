@@ -14,6 +14,10 @@ const Wrapper = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   padding: 100px 0;
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 export default function PostBody({ content }: PostBodyProps) {
