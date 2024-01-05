@@ -6,6 +6,15 @@ type PostBodyProps = {
   content: Queries.ContentfulPostContent
 }
 
+const Content = styled.div`
+  font-size: 14px;
+  color: #100c08;
+
+  @media (max-width: 1199px) {
+    font-size: 9px;
+  }
+`
+
 const Wrapper = styled.div`
   position: relative;
   display: grid;
@@ -15,7 +24,7 @@ const Wrapper = styled.div`
   align-items: flex-start;
   padding: 100px 0;
 
-  @media (max-width: 767px) {
+  @media (max-width: 1199px) {
     grid-template-columns: 1fr;
   }
 `
@@ -25,7 +34,7 @@ export default function PostBody({ content }: PostBodyProps) {
 
   return (
     <Wrapper>
-      <div id="content">{richText}</div>
+      <Content>{richText}</Content>
       <TableOfContents content={content} />
     </Wrapper>
   )
