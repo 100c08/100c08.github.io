@@ -11,7 +11,7 @@ const Content = styled.div`
   color: #100c08;
 
   @media (max-width: 1199px) {
-    font-size: 9px;
+    font-size: 11px;
   }
 `
 
