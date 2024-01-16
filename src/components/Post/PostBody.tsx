@@ -7,11 +7,12 @@ type PostBodyProps = {
 }
 
 const Content = styled.div`
-  font-size: 14px;
+  font-size: 17px;
   color: #100c08;
+  line-height: 150%;
 
   @media (max-width: 1199px) {
-    font-size: 11px;
+    font-size: 14px;
   }
 `
 
