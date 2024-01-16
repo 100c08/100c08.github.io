@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_gatsby_site=self.webpackChunkmy_gatsby_site||[]).push([[342],{9742:function(t,a,e){e.d(a,{uCz:function(){return n}});var i=e(3486);function n(t){return(0,i.w_)({tag:"svg",attr:{role:"img",viewBox:"0 0 24 24"},child:[{tag:"title",attr:{},child:[]},{tag:"path",attr:{d:"M16.273 12.845 7.376 0H0v24h7.726V11.156L16.624 24H24V0h-7.727v12.845Z"}}]})(t)}}}]);
+//# sourceMappingURL=c98670a8-0481a97e4a88051655a2.js.map
