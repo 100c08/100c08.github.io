@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://100c08.github.io/sitemap-index.xml
+Host: https://100c08.github.io
